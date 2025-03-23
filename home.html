@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>6Dot | Home</title>
+  <link rel="stylesheet" href="home.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- Three.js Core & STL Loader -->
+  <script src="https://cdn.jsdelivr.net/npm/three@0.154.0/build/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.154.0/examples/js/loaders/STLLoader.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.154.0/examples/js/controls/OrbitControls.js"></script>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">6Dot</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#problem">Problem</a></li>
+      <li><a href="#how">Solution</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-text">
+        <h1><span class="highlight">Decode</span> the World with <span class="highlight">6Dot</span></h1>
+        <p>Revolutionizing accessibility through Braille technology.</p>
+        <p class="subtagline">Empowering touch. Empowering lives.</p>
+        <a href="#how-it-works" class="cta-button">Learn How It Works</a>
+      </div>
+      
+  
+    <!-- Sketchfab 3D Viewer Embed -->
+    <div class="sketchfab-embed-wrapper" style="flex: 1; max-width: 800px;">
+        <iframe
+        id="vs_iframe"
+        src="https://www.viewstl.com/?embedded&url=https://raw.githubusercontent.com/dhruvtoprani/6dot/cddff4bed76137038ae9df0da295b3cffb74ae7e/model.stl&color=white&bgcolor=transparent&shading=flat&clean=yes&noborder=yes&orientation=front&edges=no"
+        style="border:0; margin:0; width:100%; height:480px;">
+      </iframe>
+      
+    </div>
+  </section>
+  
+  <section class="problem-section" id="problem">
+    <h2>The Problem</h2>
+    <div class="problem-cards">
+      <div class="problem-card">
+        <h3>Sensory Overload</h3>
+        <p>Many visually impaired users report cognitive fatigue and frustration from constant audio input when using screen readers.</p>
+      </div>
+      <div class="problem-card">
+        <h3>Social Discomfort</h3>
+        <p>Students at the RCPD (MSU) shared that screen readers and assistive earphones feel intrusive during social interactions, leading to embarrassment or avoidance.</p>
+      </div>
+      <div class="problem-card">
+        <h3>Bulky & Inconvenient Devices</h3>
+        <p>Most Braille displays are large, heavy, and impractical for daily use. 6Dot offers a compact alternative that snaps onto the back of your phone and fits in your pocket.</p>
+      </div>
+    </div>
+  </section>
+  
+
+  <script src="hero.js"></script>
+</body>
+</html>
